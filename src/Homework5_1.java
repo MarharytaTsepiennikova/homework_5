@@ -15,6 +15,7 @@ public class Homework5_1 {
     static String makeConcat(String x, int y, double z){
         String result;
         result = x + y + z;
+        System.out.println(result);
         return result;
     }
 }
