@@ -10,7 +10,7 @@ public class Homework5_1 {
         String x = "Hello";
         int y = 14;
         double z = 8.6;
-        System.out.println(makeConcat(x, y, z));
+        makeConcat(x, y, z);
     }
     static String makeConcat(String x, int y, double z){
         String result;
